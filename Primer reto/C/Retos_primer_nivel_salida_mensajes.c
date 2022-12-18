@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <math.h>
 
 char nombre_usuario[60], marcador[2], salto;
 short i, retos, categorias, rebanadas, consumidas, edad, edad_pasada, edad_futura;
@@ -57,9 +56,9 @@ void menu()
     salto de linea que deja scanf() en el
     buffer.
     
-    Cuando es almacenado la funcion 
+    Cuando es almacenado, la funcion 
     gets() no toma este salto de linea
-    como input.*/
+    como input, y funciona correctamente.*/
 }
 
 void biblioteca_de_retos()
