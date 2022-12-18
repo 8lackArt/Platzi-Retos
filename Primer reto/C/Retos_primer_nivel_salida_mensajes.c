@@ -30,6 +30,8 @@ int main()
     return 0;
 }
 
+//Definicion
+
 void menu()
 {
     printf("Bienvenido a la biblioteca de retos de Platzi!\n");
@@ -257,8 +259,6 @@ void biblioteca_de_retos()
     scanf("%1s", marcador);
     salto = getchar();
 }
-
-//Definicion
 
 int suma_enteros()
 {
